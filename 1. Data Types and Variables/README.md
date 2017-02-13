@@ -1,6 +1,6 @@
 1.	Practice Integer Numbers
 Create a new C# project and create a program that assigns integer values to variables. Be sure that each value is stored in the correct variable type (try to find the most suitable variable type in order to save memory). Finally, you need to print all variables to the console
-Input:
+// Input: 
 -100
 128
 -3540
@@ -22,26 +22,26 @@ Output:
 Create a program to ask the user for a distance (in meters) and the time taken (as three numbers: hours, minutes, seconds), and print the speed, in meters per second, kilometers per hour and miles per hour.
 Assume 1 mile = 1609 meters.
 Input:
-1000 		10000
-1		0
-1		20
-0		30
+1000 		
+1		
+1		
+0		
 Output:
-0.2732241	8.130081
-0.9836066	29.26829
-0.6113155	18.19036
+0.2732241	
+0.9836066	
+0.6113155	
 
 3. Create a program to convert a decimal number to hexadecimal and binary number and print it.
 
 Input: 420
 Output: 1A4
-	110100100
+110100100
 
 
 4. Comparing Floats
 Write a program that safely compares floating-point numbers (double) with precision eps = 0.000001. Note that we cannot directly compare two floating-point numbers a and b by a==b because of the nature of the floating-point arithmetic. Therefore, we assume two numbers are equal if they are more closely to each other than some fixed constant eps. Examples:
 Number a:	Number b:	Equal:	Explanation:
-5.3		6.01		False	The difference of 0.71 is too big (> eps)
+5.3			6.01		False	The difference of 0.71 is too big (> eps)
 5.00000001	5.00000003	True	The difference 0.00000002 < eps
 5.00000005	5.00000001	True	The difference 0.00000004 < eps
 -0.0000007	0.00000007	True	The difference 0.00000077 < eps
@@ -88,5 +88,4 @@ Input:	Output:	Comments:
 5	1	All the persons fit inside in the elevator.
 		Only one course is needed.
 
-10
-5	2	2 courses * 5 people
+
